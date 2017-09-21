@@ -1,0 +1,56 @@
+﻿{
+  "swagger": "2.0",
+  "info": {
+    "title": "Dummy Backend Service Client",
+    "description": "Dummy Backend Service Client",
+    "version": "1.0.0"
+  },
+  "host": "localhost",
+  "schemes": [
+    "https"
+  ],
+  "consumes": [
+    "application/json"
+  ],
+  "produces": [
+    "application/json"
+  ],
+  "paths": {
+    "/ok": {
+      "get": {
+        "operationId": "Service_OK",
+        "summary": "This request will return OK",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "integer"
+            }
+          }
+        }
+      }
+    },
+    "/badrequest": {
+      "get": {
+        "operationId": "Service_BadRequest",
+        "summary": "This request will return BadRequest",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/internalerror": {
+      "get": {
+        "operationId": "Service_InternalError",
+        "summary": "This request will return Internal Server Error.",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>AutoRest</id>
+    <version>0.17.3</version>
+    <authors>Microsoft,Azure-SDK</authors>
+    <owners>Microsoft,Azure-SDK</owners>
+    <licenseUrl>https://raw.githubusercontent.com/Microsoft/dotnet/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/Azure/AutoRest</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/Azure/AutoRest/7c1576dfb56974176223545cfac5762d168ded5f/Documentation/images/autorest-small-flat.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>AutoRest</description>
+    <summary>AutoRest code generation of REST API client libraries.</summary>
+    <tags>Microsoft AutoRest Generator</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.5.1" />
+    </dependencies>
+  </metadata>
+</package>
